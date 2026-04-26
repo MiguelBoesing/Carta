@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta — Meu eu do futuro</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #f5f3ee;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .carta-wrap {
+      max-width: 580px;
+      width: 100%;
+      background: #ffffff;
+      border: 0.5px solid #d3d1c7;
+      border-radius: 12px;
+      padding: 3rem 3.5rem;
+      position: relative;
+      font-family: 'Lora', serif;
+    }
+
+    .carta-wrap::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #AFA9EC, #5DCAA5, #F0997B);
+      border-radius: 12px 12px 0 0;
+    }
+
+    .data {
+      font-size: 13px;
+      color: #888780;
+      text-align: right;
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+
+    .destinatario {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 500;
+      color: #2c2c2a;
+      margin-bottom: 1.75rem;
+    }
+
+    .paragrafo {
+      font-size: 15px;
+      line-height: 1.85;
+      color: #2c2c2a;
+      margin-bottom: 1.25rem;
+    }
+
+    .paragrafo em {
+      color: #5f5e5a;
+    }
+
+    .assinatura {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 0.5px solid #d3d1c7;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .assina-label {
+      font-size: 13px;
+      color: #888780;
+    }
+
+    .assina-nome {
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      font-weight: 500;
+      color: #2c2c2a;
+      font-style: italic;
+    }
+
+    .detalhe {
+      position: absolute;
+      bottom: 1.5rem;
+      right: 2rem;
+      font-size: 22px;
+      opacity: 0.12;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="carta-wrap">
+    <p class="data">27 de Fevereiro de 2026</p>
+
+    <p class="destinatario">Querido eu do futuro,</p>
+
+    <p class="paragrafo">
+      Espero que quando você ler isso, consiga lembrar como era difícil enxergar adiante nos dias em que esta carta foi escrita. Os dias eram cheios de dúvidas, e o futuro parecia ao mesmo tempo próximo e inalcançável.
+    </p>
+
+    <p class="paragrafo">
+      Você ainda se lembra do medo de errar? De acordar sem saber se estava no caminho certo? Essas perguntas faziam parte de quem eu era. Mas no fundo, havia uma centelha teimosa a crença de que valeria a pena continuar.
+    </p>
+
+    <p class="paragrafo">
+      Eu não sei exatamente onde você está agora. Se cresceu, se mudou, se perdeu algumas coisas pelo caminho. Mas sei que chegou até aqui. E isso, por si só, já é <em>muito mais do que parecia possível</em>.
+    </p>
+
+    <p class="paragrafo">
+      Cuide de quem você ama. Descanse sem culpa. E não se esqueça de celebrar o quanto caminhou — mesmo quando o próximo passo ainda parece incerto.
+    </p>
+
+    <p class="paragrafo">
+      Com carinho e esperança,
+    </p>
+
+    <div class="assinatura">
+      <span class="assina-label">Com afeto,</span>
+      <span class="assina-nome">Eu, do passado.</span>
+    </div>
+
+  </div>
+</body>
+</html>
